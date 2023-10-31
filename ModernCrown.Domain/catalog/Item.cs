@@ -1,5 +1,5 @@
 using System;
-using Modern.Crown.Domain.Catlog;
+using Modern.Crown.Domain.Catalog;
 
 namespace Modern.Crown.Domain.Catalog
 {
