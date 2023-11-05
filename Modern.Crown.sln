@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernCrown.Api", "ModernCr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernCrown.Domain", "ModernCrown.Domain\ModernCrown.Domain.csproj", "{F62B4CEE-7249-41D3-ACBD-085A800C8DEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modern-Crown.Data", "Modern-Crown.Data\Modern-Crown.Data.csproj", "{7915227D-8737-47AE-964E-FA6CE1EE5814}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{F62B4CEE-7249-41D3-ACBD-085A800C8DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F62B4CEE-7249-41D3-ACBD-085A800C8DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F62B4CEE-7249-41D3-ACBD-085A800C8DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7915227D-8737-47AE-964E-FA6CE1EE5814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7915227D-8737-47AE-964E-FA6CE1EE5814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7915227D-8737-47AE-964E-FA6CE1EE5814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7915227D-8737-47AE-964E-FA6CE1EE5814}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

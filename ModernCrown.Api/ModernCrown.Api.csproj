@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ModernCrown.Domain\ModernCrown.Domain.csproj" />
+    <ProjectReference Include="..\Modern-Crown.Data\Modern-Crown.Data.csproj" />
   </ItemGroup>
 
 </Project>
