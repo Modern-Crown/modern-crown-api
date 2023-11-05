@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Modern.Crown.Domain.Catalog;
+using Modern.Crown.Data;
 
 namespace Modern.Crown.Api.Controllers
 {
@@ -9,15 +10,18 @@ namespace Modern.Crown.Api.Controllers
     public class CatalogController : ControllerBase
     {
 
+        private readonly StoreContext _db;
+
+        //Takes instance of StoreContext and sets it to local variable
+        public CatalogController(StoreContext db)
+        {
+            _db = db;
+        }
+
         [HttpGet]
         public IActionResult GetItems()
         {
-            var items = new List <Item>()
-            {
-                new Item ("Shirt", "Ohio State shirt.", "Nike", 29.99m),
-                new Item ("Shorts", "Ohio State shorts.", "Nike", 44.99m)
-            };
-            return Ok(items);
+            return Ok(_db.Items);
         }
 
         [HttpGet("{id:int}")]

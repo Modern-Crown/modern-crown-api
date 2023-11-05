@@ -1,13 +1,15 @@
 ﻿using Modern.Crown.Domain.Catalog;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Sqlite;
 
-namespace Modern_Crown.Data;
+namespace Modern.Crown.Data
 {
     public class StoreContext : DbContext
     {
-        public StoreContext(DbContextOptions<StoreContext> options) : base(options)
+        public StoreContext(DbContextOptions<StoreContext> options) 
+            : base(options)
         { }
 
-        public Db<Item> Items { get; set; }
+        public DbSet<Item> Items { get; set; }
     }
 }
