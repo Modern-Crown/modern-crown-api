@@ -26,11 +26,11 @@ namespace Modern.Crown.Api.Controllers
             var item = new Item ("Shirt", "Ohio State shirt.", "Nike", 29.99m);
             item.Id = id;
 
-            return Ok (item);
+        return Ok (item);
         }
 
-        [HttpPost]
-        public IActionResult Post(Item item)
+    [HttpPost]
+            public IActionResult Post(Item item)
         {
             return Created("/catalog/42", item);
         }
@@ -57,17 +57,5 @@ namespace Modern.Crown.Api.Controllers
             return NoContent();
         }
 
-<<<<<<< HEAD
-        return Ok (item);
     }
-
-    [HttpPost]
-    public IActionResult Post (Item item)
-    {
-        return Created("/catalog/42", item);
-    }
-=======
->>>>>>> 6c2f68d9446280d1e403db769b6dd189ddd41d25
-    }
-    
 }
