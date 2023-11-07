@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernCrown.Api", "ModernCr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernCrown.Domain", "ModernCrown.Domain\ModernCrown.Domain.csproj", "{F62B4CEE-7249-41D3-ACBD-085A800C8DEA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B6E36FB0-42F3-4FA5-A438-2DABC429DF51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modern.Crown.Domain.Tests", "tests\Modern.Crown.Domain.Tests\Modern.Crown.Domain.Tests.csproj", "{4490917E-6DAA-45BF-8042-56F23A4231EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,12 @@ Global
 		{F62B4CEE-7249-41D3-ACBD-085A800C8DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F62B4CEE-7249-41D3-ACBD-085A800C8DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F62B4CEE-7249-41D3-ACBD-085A800C8DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4490917E-6DAA-45BF-8042-56F23A4231EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4490917E-6DAA-45BF-8042-56F23A4231EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4490917E-6DAA-45BF-8042-56F23A4231EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4490917E-6DAA-45BF-8042-56F23A4231EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4490917E-6DAA-45BF-8042-56F23A4231EF} = {B6E36FB0-42F3-4FA5-A438-2DABC429DF51}
 	EndGlobalSection
 EndGlobal
