@@ -36,8 +36,8 @@ namespace Modern.Crown.Api.Controllers
             return Ok();
         }
 
-        [HttpPost]
-        public IActionResult Post(Item item)
+    [HttpPost]
+            public IActionResult Post(Item item)
         {
             _db.Items.Add(item);
             _db.SaveChanges();
@@ -93,5 +93,4 @@ namespace Modern.Crown.Api.Controllers
         }
 
     }
-    
 }
