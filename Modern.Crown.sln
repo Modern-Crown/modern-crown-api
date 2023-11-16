@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B6E36FB0-42F3-4FA5-A438-2DABC429DF51}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModernCrown.Domain.Tests", "tests\ModernCrown.Domain.Tests\ModernCrown.Domain.Tests.csproj", "{0B4AEEBB-7003-4263-8B50-A68544016566}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modern-Crown.Data", "Modern-Crown.Data\Modern-Crown.Data.csproj", "{7915227D-8737-47AE-964E-FA6CE1EE5814}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,7 +29,6 @@ Global
 		{F62B4CEE-7249-41D3-ACBD-085A800C8DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F62B4CEE-7249-41D3-ACBD-085A800C8DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F62B4CEE-7249-41D3-ACBD-085A800C8DEA}.Release|Any CPU.Build.0 = Release|Any CPU
-		
 		{0B4AEEBB-7003-4263-8B50-A68544016566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0B4AEEBB-7003-4263-8B50-A68544016566}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B4AEEBB-7003-4263-8B50-A68544016566}.Release|Any CPU.ActiveCfg = Release|Any CPU
