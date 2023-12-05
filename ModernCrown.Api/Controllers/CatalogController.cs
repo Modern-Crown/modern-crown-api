@@ -53,7 +53,9 @@ namespace Modern.Crown.Api.Controllers
                 return NotFound();
             }
 
+#pragma warning disable CS0162 // Unreachable code detected
             item.AddRating(rating);
+#pragma warning restore CS0162 // Unreachable code detected
             _db.SaveChanges();
 
             return Ok(item);
