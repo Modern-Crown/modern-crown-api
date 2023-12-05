@@ -1,0 +1,6 @@
+### GET token from Auth0
+
+curl --request POST \
+  --url https://dev-himr8fzjq84jp51y.us.auth0.com/oauth/token \
+  --header 'content-type: application/json' \
+  --data '{"client_id":"VHp1ImG7nRp1ZPo9QhVOKgVEEe61eJfl","client_secret":"QbGT_hWP4IaK68exvFobx0NNNScMQl_MO9SMNur-rdnGuAZTfPmCFeOoa7TxRYHk","audience":"https://ModernCrown","grant_type":"client_credentials"}'
